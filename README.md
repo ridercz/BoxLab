@@ -2,7 +2,10 @@
 
 This is a simple project of 'lab in a box'. I teach courses where I need controlled network environment, connected to the Internet. So I created a box, containing all the necessary hardware and software.
 
-![](Images/final.jpg)
+![](Images/final-1.jpg)
+![](Images/final-2.jpg)
+![](Images/final-3.jpg)
+![](Images/final-4.jpg)
 
 While I don't expect anyone to exactly replicate my build (because your requirements are likely different from mine), it still may be good inspiration.
 
