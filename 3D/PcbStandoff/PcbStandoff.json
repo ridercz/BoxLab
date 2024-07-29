@@ -1,0 +1,38 @@
+{
+    "parameterSets": {
+        "Raspberry Pi": {
+            "$fn": "32",
+            "$fudge": "1",
+            "base_center": "[20, 25]",
+            "base_height": "1.5",
+            "hole_diameter": "2.2",
+            "hole_span": "[49, 58]",
+            "pillar_height": "5",
+            "pillar_wall": "1.67"
+        },
+        "TP-Link TL-WDR3600": {
+            "$fn": "32",
+            "$fudge": "1",
+            "base_center": "[30, 50]",
+            "base_height": "1.5",
+            "hole_diameter": "2.9",
+            "hole_span": "[110, 175]",
+            "pillar_height": "9",
+            "pillar_wall": "2.49"
+        },
+        "TP-Link TL-WDR3600 (hollow)": {
+            "$fn": "32",
+            "$fudge": "1",
+            "base_center": "[30, 50]",
+            "base_height": "1.5",
+            "brace_backkward": "false",
+            "brace_forward": "false",
+            "frame_thickness": "0",
+            "hole_diameter": "2.9",
+            "hole_span": "[110, 175]",
+            "pillar_height": "9",
+            "pillar_wall": "2.49"
+        }
+    },
+    "fileFormatVersion": "1"
+}
