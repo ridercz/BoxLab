@@ -1,5 +1,7 @@
 # Status display for the Lazy Horse BoxLab
 
+![](Images/status-display.jpg)
+
 This module uses LCD from the famous Nokia 5110 phone (and still available today) with the PCD8544 controller, connected to Wemos D1 Mini (ESP8266) to show status of the BoxLab system. We are monitoring:
 
 * If the router Wi-Fi network `boxlab.lazyhorse.net` is accessible.
@@ -18,8 +20,18 @@ Status                       | Meaning
 
 You need:
 
-* **Wemos D1 Mini** or any ESP8266-based board; the D1 Mini is cheap, widely available and has a fixed form factor, unlike some other boards.
-* **Nokia 5110 LCD with PCD8544 controller**, which is, again, widely available as a breakout module.
+* **[Wemos D1 Mini](https://s.click.aliexpress.com/e/_DeEkjgj)** or any ESP8266-based board; the D1 Mini is cheap, widely available and has a fixed form factor, unlike some other boards.
+* **[Nokia 5110 LCD with PCD8544 controller](https://s.click.aliexpress.com/e/_DCIYKsB)**, which is, again, widely available as a breakout module.
+
+![](Images/displays.jpg)
+
+The displays come in two form factors I am aware of and require different 3D printed parts. The smaller version (red on the photo above) is 43 x 42 mm and has two sets of pins on top and bottom. It requires the _R3_ version of printed parts. The larger version (blue) is 43 x 46 mm and has only one set of pins on the bottom. Requires the _R4_ printed parts.
+
+They both feature the same display and ale electrically compatible, but their different PCB sizes and mounting hole placements require accommodation.
+
+If you'll consider yet another variant, you'll have to modify the OpenSCAD source files. I recommend you to start with `StatusDisplay-R04.scad`, as its construction is more parametric and easier to modify (everything is offsetted from center, older R3 offsets from various points that seemed logical at the time).
+
+### Connections
 
 Then connect the modules as follows:
 
