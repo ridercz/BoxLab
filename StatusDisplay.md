@@ -47,7 +47,14 @@ GND        | GND
 
 The contraption is powered from USB port of the internal server (Raspberry Pi). This allows opportunity for further expansion -- you can write some more complex firmware, which can ie. display the Pi status, load etc.
 
-## Code configuration
+## Software
+
+The firmware is written using [PlatformIO](https://platformio.org/). It requires the following libraries from Adafruit:
+
+* [Adafruit PCD8544 Nokia 5110 LCD library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
+* [Adafruit GFX library](https://github.com/adafruit/Adafruit-GFX-Library)
+
+## Configuration
 
 Use `#define` directives in the source file to setup the following configuration parameters:
 
